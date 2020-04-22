@@ -5,7 +5,7 @@ module.exports = {
     siteTitleShort: `Tenoco Docs`,
     siteDescription: `Documentation pour la plateforme Tenoco.net`,
     siteUrl: `https://docs.tenoco.net`,
-    siteAuthor: `@rocketseat`,
+    siteAuthor: ``,
     siteImage: `/banner.png`,
     siteLanguage: `fr`,
     themeColor: `#ff6b6b`,
