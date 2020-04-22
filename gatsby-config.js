@@ -34,6 +34,14 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     {
+      resolve: "gatsby-plugin-matomo",
+      options: {
+        siteId: "6",
+        matomoUrl: "https://analytics.connecteu.rs",
+        siteUrl: "https://docs.tenoco.net",
+      },
+    },
+    {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `https://docs.tenoco.net`,
