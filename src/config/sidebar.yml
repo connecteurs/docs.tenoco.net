@@ -1,14 +1,12 @@
-# Sidebar navigation
+- label: Introduction
+  link: /
 
-- label: 'Introduction'
-  link: '/'
-- label: 'Getting started'
-  link: '/getting-started'
-- label: Usage
+- label: Compte utilisateur
   items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Shadowing'
-      link: '/usage/shadowing'
+    - label: Création
+      link: /compte/creation
+
+- label: Courriel
+  items:
+    - label: Configuration
+      link: /courriel/configuration

@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `@rocketseat/gatsby-theme-docs`,
-    defaultTitle: `@rocketseat/gatsby-theme-docs`,
-    siteTitleShort: `gatsby-theme-docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.com`,
+    siteTitle: `Documentation de Tenoco`,
+    defaultTitle: `Documentation de Tenoco`,
+    siteTitleShort: `Tenoco Docs`,
+    siteDescription: `Documentation pour la plateforme Tenoco.net`,
+    siteUrl: `https://docs.tenoco.net`,
     siteAuthor: `@rocketseat`,
     siteImage: `/banner.png`,
-    siteLanguage: `en`,
+    siteLanguage: `fr`,
     themeColor: `#7159c1`,
     basePath: `/`,
-    footer: `Theme by Rocketseat`,
+    footer: `Les Connecteurs`,
   },
   plugins: [
     {
@@ -18,15 +18,14 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        githubUrl: `https://github.com/rocketseat/gatsby-themes`,
         baseDir: `examples/gatsby-theme-docs`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
+        name: `Documentation de Tenoco`,
+        short_name: `Tenoco Docs`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
@@ -35,15 +34,9 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // trackingId: ``,
-      },
-    },
-    {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.com`,
+        siteUrl: `https://docs.tenoco.net`,
       },
     },
     `gatsby-plugin-offline`,
