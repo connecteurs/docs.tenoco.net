@@ -4,9 +4,25 @@
 - label: Compte utilisateur
   items:
     - label: Création
-      link: /compte/creation
+      link: /account/creation
+    - label: Gestion
+      link: /account/manage
 
-- label: Courriel
+- label: Tenoco Mail
   items:
+    - label: Présentation
+      link: /mail/about
     - label: Configuration
-      link: /courriel/configuration
+      link: /mail/configuration
+
+- label: Tenoco Chat
+  items:
+    - label: Présentation
+      link: /chat/about
+    - label: Clients
+      link: /chat/clients
+
+- label: Tenoco Social
+  items:
+    - label: Présentation
+      link: /social/about
