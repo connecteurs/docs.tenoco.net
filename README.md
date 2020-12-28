@@ -1,4 +1,4 @@
-# Documentation for Tenoco.net
+# Documentation pour Tenoco.net
 
 Installer les dépendances avec la commande suivante :
 
