@@ -28,3 +28,8 @@
   items:
     - label: Présentation
       link: /social/about
+
+- label: Tenoco Meet
+  items:
+    - label: Présentation
+      link: /meet/about
