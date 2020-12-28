@@ -21,6 +21,8 @@
       link: /chat/about
     - label: Clients
       link: /chat/clients
+    - label: Configuration
+      link: /chat/configuration
 
 - label: Tenoco Social
   items:
