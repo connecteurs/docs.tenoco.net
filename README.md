@@ -25,6 +25,7 @@ Il faut penser à mettre à jour le fichier `src/config/sidebar.yml` pour que le
 ## License
 
 This work is licensed under [CC BY-SA 4.0 or later](https://creativecommons.org/licenses/by-sa/4.0/)
+
 ![CC](https://mirrors.creativecommons.org/presskit/icons/cc.svg)
 ![BY](https://mirrors.creativecommons.org/presskit/icons/by.svg)
 ![SA](https://mirrors.creativecommons.org/presskit/icons/sa.svg)
